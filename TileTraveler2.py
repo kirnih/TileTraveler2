@@ -20,6 +20,9 @@ def is_victory(col, row):
     ''' Return true if player is in the victory cell '''
     return col == 3 and row == 1 # (3,1)
 
+def is_leaver():
+    return None
+
 def print_directions(directions_str):
     print("You can travel: ", end='')
     first = True
